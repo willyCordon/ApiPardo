@@ -1,0 +1,52 @@
+{  
+    "CampanaID":"011100000002",
+    "CemCamp":111,
+    "NroCamp":2,
+    "CodigoCupon":"7VQJ85",
+    "DescripcionCupon":"MOTOSALE G5 / G5 PLUS",
+    "Sucursal":[  
+ 
+    ],
+    "FechaVigenciaDesde":"2019-01-28T00:00:00",
+    "FechaVigenciaHasta":"2019-04-30T23:59:00",
+    "RubroCupon":{  
+       "Descripcion":null
+    },
+    "SubrubroCupon":{  
+       "Descripcion":null
+    },
+    "DescuentoXRubro":0,
+    "EstadoCupon":"R",
+    "ArticuloCupon":[  
+       {  
+          
+          "CodigoArticulo":"33489 ",
+          "DescripcionArticulo":null,
+          "DescuentoXArticulo":0,
+          "ImporteArticulo":1000,
+          "ImagenUrl":null
+       },
+       {  
+          "CodigoArticulo":"33488 ",
+          "DescripcionArticulo":null,
+          "DescuentoXArticulo":0,
+          "ImporteArticulo":1000,
+          "ImagenUrl":null
+       },
+       {  
+          "CodigoArticulo":"33487 ",
+          "DescripcionArticulo":null,
+          "DescuentoXArticulo":0,
+          "ImporteArticulo":1000,
+          "ImagenUrl":null
+       },
+       {  
+          "CodigoArticulo":"33486 ",
+          "DescripcionArticulo":null,
+          "DescuentoXArticulo":0,
+          "ImporteArticulo":1000,
+          "ImagenUrl":null
+       }
+    ]
+ 
+ }

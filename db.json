@@ -2,23 +2,39 @@
 
 
    {  
-      "CampanaID":"011100000001",
-      "CemCamp":111,
-      "NroCamp":1,
-      "CodigoCupon":null,
-      "DescripcionCupon":"PROMOCION ESPECIAL LG G5 H840 - SMARTPHONE MODULAR DE DOBLE CAMARA | LG G5 DTO 15 %",
-      "Sucursal":[  
+    "get":[{
 
-      ],
-      "FechaVigenciaDesde":"2019-01-01T00:00:00",
-      "FechaVigenciaHasta":"2019-04-30T23:59:00",
-      "RubroCupon":{  
-         "Descripcion":null
-      },
-      "SubrubroCupon":{  
-         "Descripcion":null
-      },
-      "DescuentoXRubro":0.00,
-      "EstadoCupon":null
-   }
-  
+       "CampanaID":"011100000001",
+    "CemCamp":111,
+    "NroCamp":1,
+    "CodigoCupon":null,
+    "DescripcionCupon":"PROMOCION ESPECIAL LG G5 H840 - SMARTPHONE MODULAR DE DOBLE CAMARA | LG G5 DTO 15 %",
+    "Sucursal":[  
+ 
+    ],
+    "FechaVigenciaDesde":"2019-01-01T00:00:00",
+    "FechaVigenciaHasta":"2019-04-30T23:59:00",
+    "RubroCupon":{  
+       "Descripcion":null
+    },
+    "SubrubroCupon":{  
+       "Descripcion":null
+    },
+    "DescuentoXRubro":0.00,
+    "EstadoCupon":null,
+    "ArticuloCupon":[  
+       {  
+          "CodigoArticulo":"34084",
+          "DescripcionArticulo":null,
+          "DescuentoXArticulo":15.00,
+          "ImporteArticulo":0.0000000,
+          "ImagenUrl":null
+       }
+    ]
+    }
+
+
+    ]
+    
+ }
+

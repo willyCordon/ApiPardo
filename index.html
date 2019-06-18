@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Traendo datos desde una api local</h1>
+
+
+    <div id="exit">
+
+
+    </div>
+    
+
+
+   <script>
+
+//        // JSON con distintos valores para utilizar en la demo
+//      var json = {'valor1': 1, 'valor2': [1, 2, 3, 4], 'valor3': '3'};
+     
+//      // Obteniendo todas las claves del JSON
+//      for (var clave in json){
+//        // Controlando que json realmente tenga esa propiedad
+//        if (json.hasOwnProperty(clave)) {
+//          // Mostrando en pantalla la clave junto a su valor
+//          alert("La clave es " + clave+ " y el valor es " + json[clave]);
+//        }
+//      }
+
+        fetch('http://localhost:3000/get',{
+            method:'GET'
+        })
+        .then(response=>response.json())
+        .then(rta=>{
+            console.log(rta)
+           
+            for (let i = 0; i < rta.length; i++) {
+                const element = rta[i];
+                let campania = rta[i].CampanaID;
+                console.log(campania);
+                let cemcam = rta[i].CemCamp;
+                console.log(cemcam); 
+                let cupon=rta[i].ArticuloCupon;
+                    for (let j = 0; j < cupon.length; j++) {
+                        const element = cupon[j];
+                        let codart=cupon[j].CodigoArticulo;
+                        console.log(codart);
+                        
+                    }
+            }
+
+
+        })
+
+   </script> 
+</body>
+</html>

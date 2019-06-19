@@ -1,40 +1,145 @@
 
-
-
    {  
-    "get":[{
-
-       "CampanaID":"011100000001",
-    "CemCamp":111,
-    "NroCamp":1,
-    "CodigoCupon":null,
-    "DescripcionCupon":"PROMOCION ESPECIAL LG G5 H840 - SMARTPHONE MODULAR DE DOBLE CAMARA | LG G5 DTO 15 %",
-    "Sucursal":[  
- 
-    ],
-    "FechaVigenciaDesde":"2019-01-01T00:00:00",
-    "FechaVigenciaHasta":"2019-04-30T23:59:00",
-    "RubroCupon":{  
-       "Descripcion":null
-    },
-    "SubrubroCupon":{  
-       "Descripcion":null
-    },
-    "DescuentoXRubro":0.00,
-    "EstadoCupon":null,
-    "ArticuloCupon":[  
-       {  
-          "CodigoArticulo":"34084",
-          "DescripcionArticulo":null,
-          "DescuentoXArticulo":15.00,
-          "ImporteArticulo":0.0000000,
-          "ImagenUrl":null
-       }
-    ]
-    }
-
-
-    ]
+      "get":
+      [  
+         {  
+            "CampanaID":"011100000001",
+            "CemCamp":111,
+            "NroCamp":1,
+            "CodigoCupon":null,
+            "DescripcionCupon":"PROMOCION ESPECIAL LG G5 H840 - SMARTPHONE MODULAR DE DOBLE CAMARA | LG G5 DTO 15 %",
+            "Sucursal":[  
+      
+            ],
+            "FechaVigenciaDesde":"2019-01-01T00:00:00",
+            "FechaVigenciaHasta":"2019-04-30T23:59:00",
+            "RubroCupon":{  
+               "Descripcion":null
+            },
+            "SubrubroCupon":{  
+               "Descripcion":null
+            },
+            "DescuentoXRubro":0.00,
+            "EstadoCupon":null,
+            "ArticuloCupon":[  
+               {  
+                  "CodigoArticulo":"34084               ",
+                  "DescripcionArticulo":null,
+                  "DescuentoXArticulo":15.00,
+                  "ImporteArticulo":0.0000000,
+                  "ImagenUrl":null
+               }
+            ]
+         },
+         {  
+            "CampanaID":"011100000002",
+            "CemCamp":111,
+            "NroCamp":2,
+            "CodigoCupon":null,
+            "DescripcionCupon":"MOTOSALE G5 / G5 PLUS",
+            "Sucursal":[  
+      
+            ],
+            "FechaVigenciaDesde":"2019-01-28T00:00:00",
+            "FechaVigenciaHasta":"2019-04-30T23:59:00",
+            "RubroCupon":{  
+               "Descripcion":null
+            },
+            "SubrubroCupon":{  
+               "Descripcion":null
+            },
+            "DescuentoXRubro":0.00,
+            "EstadoCupon":null,
+            "ArticuloCupon":[  
+               {  
+                  "CodigoArticulo":"33489               ",
+                  "DescripcionArticulo":null,
+                  "DescuentoXArticulo":0.00,
+                  "ImporteArticulo":1000.0000000,
+                  "ImagenUrl":null
+               },
+               {  
+                  "CodigoArticulo":"33488               ",
+                  "DescripcionArticulo":null,
+                  "DescuentoXArticulo":0.00,
+                  "ImporteArticulo":1000.0000000,
+                  "ImagenUrl":null
+               },
+               {  
+                  "CodigoArticulo":"33487               ",
+                  "DescripcionArticulo":null,
+                  "DescuentoXArticulo":0.00,
+                  "ImporteArticulo":1000.0000000,
+                  "ImagenUrl":null
+               },
+               {  
+                  "CodigoArticulo":"33486               ",
+                  "DescripcionArticulo":null,
+                  "DescuentoXArticulo":0.00,
+                  "ImporteArticulo":1000.0000000,
+                  "ImagenUrl":null
+               }
+            ]
+         },
+         {  
+          "CampanaID":"011100000003",
+          "CemCamp":111,
+          "NroCamp":1,
+          "CodigoCupon":null,
+          "DescripcionCupon":"PROMOCION XAOMI READMI NOTE 7 15% DESCUENTO",
+          "Sucursal":[  
     
- }
-
+          ],
+          "FechaVigenciaDesde":"2019-02-01T00:00:00",
+          "FechaVigenciaHasta":"2019-05-30T23:59:00",
+          "RubroCupon":{  
+             "Descripcion":null
+          },
+          "SubrubroCupon":{  
+             "Descripcion":null
+          },
+          "DescuentoXRubro":0.00,
+          "EstadoCupon":null,
+          "ArticuloCupon":[  
+             {  
+                "CodigoArticulo":"36094               ",
+                "DescripcionArticulo":null,
+                "DescuentoXArticulo":15.00,
+                "ImporteArticulo":0.0000000,
+                "ImagenUrl":null
+             }
+          ]
+       },
+       {  
+        "CampanaID":"011100000004",
+        "CemCamp":111,
+        "NroCamp":1,
+        "CodigoCupon":null,
+        "DescripcionCupon":"PROMOCION XIAOMI READMI NOTE 7 plus 15% DESCUENTO",
+        "Sucursal":[  
+  
+        ],
+        "FechaVigenciaDesde":"2019-05-01T00:00:00",
+        "FechaVigenciaHasta":"2019-07-30T23:59:00",
+        "RubroCupon":{  
+           "Descripcion":null
+        },
+        "SubrubroCupon":{  
+           "Descripcion":null
+        },
+        "DescuentoXRubro":0.00,
+        "EstadoCupon":null,
+        "ArticuloCupon":[  
+           {  
+              "CodigoArticulo":"39099               ",
+              "DescripcionArticulo":null,
+              "DescuentoXArticulo":15.00,
+              "ImporteArticulo":0.0000000,
+              "ImagenUrl":null
+           }
+        ]
+     }
+      ]
+   }
+  
+  
